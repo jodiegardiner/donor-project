@@ -91,8 +91,8 @@ function makeGraphs(error, projectsJson) {
         .formatNumber(d3.format(".3s"));
 
     timeChart
-        .width(1000)
-        .height(300)
+        .width(800)
+        .height(250)
         .margins({top: 10, right: 50, bottom: 30, left: 50})
         .dimension(dateDim)
         .group(numProjectsByDate)
